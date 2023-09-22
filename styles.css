@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;700;900&family=Sora:wght@100;300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Inter', Arial;
+    color: #333333;
+}
+
+section#banner {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+}
+
+div#left-side {
+    width: 50%;
+    height: max-content;
+    min-height: 100vh;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+
+    background-color: #F2F4FD;
+}
+
+div#left-side nav {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    font-size: 0.9rem;
+}
+
+div#left-side nav img {
+    width: 2rem;
+}
+
+div#left-side nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+
+    cursor: pointer;
+}
+
+i.bi.bi-chevron-down {
+    color: #EB3850;
+}
+
+div#infos {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    padding: 5rem;
+}
+
+h1, p.title {
+    font-size: 3rem;
+    color: #E51D37;
+    font-family: 'Sora', Arial;
+    font-weight: 700;
+}
+
+div#info-buttons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+div#info-buttons button {
+    background: linear-gradient(220.94deg, #EB3850 14.43%, #CB162E 85.28%);
+    padding: 0.7rem 2rem;
+    border: none;
+    border-radius: 0.2rem;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+div#info-buttons i {
+    color: #EB3850;
+    cursor: pointer;
+}
+
+div#right-side {
+    width: 50%;
+    height: max-content;
+    min-height: 100vh;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+
+    background: linear-gradient(220.94deg, #EB3850 14.43%, #CB162E 85.28%);
+}
+
+div#top-right-banner {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 10rem;
+
+    font-size: 1rem;
+}
+
+div#top-right-banner button {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+div#right-side img {
+    width: 80%;
+}
+
+
+
+section#open-account {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+section#open-account img {
+    width: 10rem;
+}
+
+div#open-account-infos {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+div#open-account-text h2 {
+    font-family: 'Sora', Arial;
+    font-size: 2rem;
+}
+
+div#open-account-text h2 span {
+    color: #E51D37;
+}
+
+div#open-account-text p {
+    color: #646466;
+}
+
+div#benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+div.benefit {
+    display: flex;
+    gap: 1rem;
+}
